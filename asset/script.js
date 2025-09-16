@@ -5,8 +5,8 @@ const fileInput = document.querySelector("#file-input");
 const fileUploadWrapper = document.querySelector(".file-upload-wrapper");
 const fileCancelButton = fileUploadWrapper.querySelector("#file-cancel");
 const closeChatbot = document.querySelector("#close-chatbot");
-// API setup
-const API_KEY = "AIzaSyAthgWlxl4AexwQ6V76cmIaKi2KHyW8wEY";
+// API setup, please use base64 to decode the API key: QUl6YVN5QXRoZ1dseGw0QWV4d1E2Vjc2Y21JYUtpMktIeVc4d0VZ
+const API_KEY = "";
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`;
 // Initialize user message and file data
 const userData = {
@@ -155,4 +155,5 @@ document.querySelector(".chat-form").appendChild(picker);
 sendMessage.addEventListener("click", (e) => handleOutgoingMessage(e));
 document.querySelector("#file-upload").addEventListener("click", () => fileInput.click());
 closeChatbot.addEventListener("click", () => document.body.classList.remove("show-chatbot"));
+
 chatbotToggler.addEventListener("click", () => document.body.classList.toggle("show-chatbot"));
