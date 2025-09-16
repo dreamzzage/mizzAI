@@ -10,5 +10,15 @@ If you wanna donate for this cause, please head over to my Ko-fi page ---> https
 
 If you wanna meet the real me 4K HD, please feel free to see my links ----> https://lit.link/en/dreamzzage
 
-### How to use:
-1. Simply go to this link ----> https://dreamzzage.github.io/mizzAI/
+### Instructions:
+
+TBA.
+
+
+### How to use in case you want to test it yourself and deploy on other platform:
+
+1. This step is not optional, it's for security.
+     Read the script.js API # commentary for instructions on how to decode the key.
+     Once decoded, paste it on API_key "".
+
+2. Ready to go.
