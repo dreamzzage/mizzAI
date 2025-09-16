@@ -9,3 +9,6 @@ API requests per day until i can afford an unlimited plan (or smth).
 If you wanna donate for this cause, please head over to my Ko-fi page ---> https://ko-fi.com/dreamzzage
 
 If you wanna meet the real me 4K HD, please feel free to see my links ----> https://lit.link/en/dreamzzage
+
+### How to use:
+1. Simply go to this link ----> https://dreamzzage.github.io/mizzAI/
