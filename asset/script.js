@@ -9,7 +9,7 @@ const closeChatbot = document.querySelector("#close-chatbot");
 function encrypt(data){
   return CryptoJS.AES.encrypt(data);
 }
-var txt = "AIzaSyAthgWlxl4AexwQ6V76cmIaKi2KHyW8wEY";
+var txt = "";
 var encrypted = encrypt(txt).toString();
 
 console.log(encrypted);
@@ -166,6 +166,7 @@ document.querySelector("#file-upload").addEventListener("click", () => fileInput
 closeChatbot.addEventListener("click", () => document.body.classList.remove("show-chatbot"));
 
 chatbotToggler.addEventListener("click", () => document.body.classList.toggle("show-chatbot"));
+
 
 
 
