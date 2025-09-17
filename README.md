@@ -12,13 +12,4 @@ If you wanna meet the real me 4K HD, please feel free to see my links ----> http
 
 ### Instructions:
 
-TBA.
-
-
-### How to use in case you want to test it yourself and deploy on other platform:
-
-1. This step is not optional, it's for security.
-     Read the script.js API # commentary for instructions on how to decode the key.
-     Once decoded, paste it on API_key "".
-
-2. Ready to go.
+Simply go to this page to have fun with it ----> https://dreamzzage.com/mizzai.html
